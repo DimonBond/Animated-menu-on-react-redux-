@@ -1,0 +1,85 @@
+#map
+  width: 100%
+  height: 600px
+
+.quest
+  &__title
+    display: flex
+    flex-grow: 7
+    a
+      display: flex
+      flex-grow: 1
+      margin: 9px 0 9px 0
+      text-decoration: none
+      color: #0e86ca
+      &:hover
+        color: #014663
+  &__score
+    margin: 9px 0 9px 0
+  &__content
+    border: 8px solid #797e84
+    padding: 20px 100px
+    margin-top: 24px
+    color: #b4b6b0
+  &__desc
+    margin-top: 20px
+
+.quest-container
+  display: flex
+  flex-wrap: nowrap
+
+.quest-container--options
+  display: flex
+  flex-grow: 1
+  justify-content: space-between
+
+.quest-container--function
+  display: flex
+  justify-content: space-between
+  flex-grow: 0.3
+
+.icon-close
+  height: 32px
+
+.ada-panel__header
+  margin-bottom: 6px
+
+.profile
+  color: #b4b6b0
+
+  &__title
+    margin-bottom: 6px
+
+  &--edit
+    margin-top: 22px
+    cursor: pointer
+    color: #0e86ca
+    outline: none
+    &:hover
+      color: #0072a3
+
+  &__btn--edit
+    margin: 22px 0 0 104px
+    padding: 6px 28px 6px 28px
+    background: #bdbcb9
+    border: 0
+    border-radius: 5px
+    color: #fff
+    text-transform: uppercase
+    outline: none
+    cursor: pointer
+
+
+.profile-form-control__input
+  width: 350px
+  text-align: center
+  margin-top: 26px
+
+.btn-icon
+  outline: none
+
+.header--auth
+  text-decoration: none
+  color: #0e86ca
+  &:hover
+    color: #fff
